@@ -34,6 +34,10 @@ Here is a presentation of the global architecture at Advancing Bitcoin conferenc
 
 [![BTCPay - Architecture overview](https://i3.ytimg.com/vi/Up0dvorzSNM/maxresdefault.jpg)](https://www.youtube.com/watch?v=Up0dvorzSNM "BTCPay - Architecture overview")
 
+# AI-assisted installation
+
+If an AI coding agent is available on the server (Claude Code, Codex, Copilot, Docker Agent, and similar), ask it to **Install BTCPay Server**. It will follow [`.agents/skills/btcpay-install`](.agents/skills/btcpay-install/SKILL.md): a few plain-language questions, then the official `btcpay-setup.sh` installer.
+
 # Full installation (for technical users)
 
 You can also install BTCPay Server on your own machine or VPS instance.
